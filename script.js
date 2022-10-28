@@ -41,52 +41,52 @@
     var b =0;
     $(document).ready(function(){
         $("#a").click(function(){
-            $("#a").animate({left:'300px'}).animate({top:'50px'}).animate({left:'50rem'});
+            $("#a").animate({left:'299px'}).animate({top:'49px'}).animate({left:'49rem'});
             $(".div1").css({"visibility":"visible"});
             b++;
             if(c > 0)
             {
-                    $("#c").animate({left:'300px'}).animate({top:'300px'}).animate({left:'7px'});
+                    $("#c").animate({left:'299px'}).animate({top:'299px'}).animate({left:'6px'});
                     $(".div3").css({"visibility":"hidden"});
                     c--;
             }
             if(a > 0)
             {
-                $("#b").animate({left:'300px'}).animate({top:'250px'}).animate({left:'7px'});
+                $("#b").animate({left:'299px'}).animate({top:'249px'}).animate({left:'6px'});
                 $(".div2").css({"visibility":"hidden"});
                 a--;
             }
         });
         $("#b").click(function(){
-            $("#b").animate({left:'300px'}).animate({top:'50px'}).animate({left:'50rem'});
+            $("#b").animate({left:'299px'}).animate({top:'49px'}).animate({left:'49rem'});
             $(".div2").css({"visibility":"visible"});
             a++;
             if(b > 0)
             {
-                $("#a").animate({left:'7px'}).animate({top:'200px'}).animate({left:'7px'});
+                $("#a").animate({left:'6px'}).animate({top:'199px'}).animate({left:'6px'});
                 $(".div1").css({"visibility":"hidden"});
                 b--;
             }
             if(c > 0)
             {
-                $("#c").animate({left:'300px'}).animate({top:'300px'}).animate({left:'7px'});
+                $("#c").animate({left:'299px'}).animate({top:'299px'}).animate({left:'7px'});
                 $(".div3").css({"visibility":"hidden"});
                 c--;
             }
         });
         $("#c").click(function(){
-            $("#c").animate({left:'300px'}).animate({top:'50px'}).animate({left:'50rem'});
+            $("#c").animate({left:'299px'}).animate({top:'49px'}).animate({left:'49rem'});
             $(".div3").css({"visibility":"visible"});
             c++;
             if(a > 0 )
             {
-                $("#b").animate({left:'300px'}).animate({top:'250px'}).animate({left:'7px'});
+                $("#b").animate({left:'299px'}).animate({top:'249px'}).animate({left:'7px'});
                 $(".div2").css({"visibility":"hidden"});
                 a--;
             }
             if(b > 0)
             {
-                $("#a").animate({left:'7px'}).animate({top:'200px'}).animate({left:'7px'});
+                $("#a").animate({left:'7px'}).animate({top:'199px'}).animate({left:'7px'});
                 $(".div1").css({"visibility":"hidden"});
                 b--;
             }
